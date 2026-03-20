@@ -17,7 +17,7 @@ const items = [
     { name: "dosa", image: "dosa.avif" },
     { name: "chicken-biriyani", image: "chicken-biriyani.jpg" },
     { name: "burger", image: "burger.webp" },
-    { name: "Pizza", image: "Pizza.webp" },
+   { name: "pizza", image: "pizza.webp" },
     { name: "obbattu", image: "obbattu.webp" },
     { name: "pani-puri", image: "pani-puri.webp" },
     { name: "vada-pav", image: "vada-pav.jpg" },
