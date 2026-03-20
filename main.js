@@ -12,15 +12,15 @@ let secondCard = false;
 
 // Items array
 const items = [
-    { name: "puri", image: "puri.jpg" },
+    { name: "puri", image:"puri.jpg" },
     { name: "french-fries", image: "french-fries.png" },
     { name: "dosa", image: "dosa.avif" },
     { name: "chicken-biriyani", image: "chicken-biriyani.jpg" },
-    { name: "burger", image: "burger.webp" },
-    { name: "pizza", image: "Pizza.webp" },
-    { name: "obbattu", image: "obbattu.webp" },
-    { name: "pani-puri", image: "pani-puri.webp" },
-    { name: "vada-pav", image: "Vada-pav.jpg" },
+    { name: "burger", image:"burger.webp" },
+    { name: "pizza", image:"Pizza.webp" },
+    { name: "obbattu", image:"obbattu.webp" },
+    { name: "pani-puri", image:"pani-puri.webp" },
+    { name: "vada-pav", image: "vada-Pav.jpg" },
     { name: "chaii-samosa", image: "chaii-samosa.jpg" }
 ];
 
@@ -118,7 +118,7 @@ const matrixGenerator = (cardValues, size = 4) => {
                     secondCard = card;
                     let secondCardValue = card.getAttribute("data-card-value");
                     if (firstCardValue == secondCardValue) {
-                        //if noth cards match add matched class so these cards would beignored next time
+                        //if noth cards match add matched class so these cards would be ignored next time
                         firstCard.classList.add("matched");
                         secondCard.classList.add("matched");
                         //set firstCard to false since next card would be first now
