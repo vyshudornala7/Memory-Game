@@ -17,10 +17,10 @@ const items = [
     { name: "dosa", image: "dosa.avif" },
     { name: "chicken-biriyani", image: "chicken-biriyani.jpg" },
     { name: "burger", image: "burger.webp" },
-   { name: "pizza", image: "pizza.webp" },
+    { name: "pizza", image: "Pizza.webp" },
     { name: "obbattu", image: "obbattu.webp" },
     { name: "pani-puri", image: "pani-puri.webp" },
-    { name: "vada-pav", image: "vada-pav.jpg" },
+    { name: "vada-pav", image: "Vada-pav.jpg" },
     { name: "chaii-samosa", image: "chaii-samosa.jpg" }
 ];
 
