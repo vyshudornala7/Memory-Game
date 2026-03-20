@@ -127,10 +127,10 @@ const matrixGenerator = (cardValues, size = 4) => {
                         wincount += 1;
                         //check if winCount ==half of cardValues
                         if (wincount == Math.floor(cardValues.length / 2)) {
-                       result.innerHTML = `<h2>🎉 You Won 🎉</h2>
+                       result.innerHTML = `<h2> You Won </h2>
                        <h4>Moves: ${movesCount}</h4>`;
 
-                       celebrate(); // 🎊 ADD THIS
+                       celebrate(); //  ADD THIS
 
                         stopGame();
                        }
