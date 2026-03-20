@@ -20,7 +20,7 @@ const items = [
     { name: "pizza", image:"Pizza.webp" },
     { name: "obbattu", image:"obbattu.webp" },
     { name: "pani-puri", image:"pani-puri.webp" },
-    { name: "vada-pav", image:"Vada-Pav.jpg" },
+   { name: "vada-pav", image:"vada-Pav.jpg" },
     { name: "chaii-samosa", image: "chaii-samosa.jpg" }
 ];
 
