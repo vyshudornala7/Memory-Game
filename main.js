@@ -170,7 +170,7 @@ startButton.addEventListener("click", () => {
 })
 
 const celebrate = () => {
-    confetti({
+    confetti({       //celebration sprinkels
         particleCount: 150,
         spread: 70,
         origin: { y: 0.6 }

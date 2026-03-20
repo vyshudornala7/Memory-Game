@@ -67,8 +67,8 @@ body{
     transform: rotateY(180deg);
 }
 .card-after img {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 .card-container.flipped .card-before {
