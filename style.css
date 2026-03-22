@@ -9,13 +9,15 @@ body{
 }
 .wrapper{
     box-sizing: content-box;
-    width: 26.87em;
-    padding: 2.5em 3em;
+    width: 90%;
+    padding: 20px;
+    max-width: 500px;
     background-color: aqua;
     position:absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+    margin: auto;
     border-radius: 0.6em;
     box-shadow: 0 0.9em 2.8em red(86,66,0, 0.2);
 }
@@ -25,12 +27,21 @@ body{
     display: grid;
     gap: 10px;
     justify-content: center;
-     grid-template-columns: repeat(4, 100px); /* default */
+     grid-template-columns: repeat(4, 100px); 
 
+}
+.game-container div {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  font-size: 2rem;
 }
 .stats-container{
     text-align: right;
-    margin-bottom: 1.2em;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 1rem;
 }
 .stats-container span {
     font-weight: 600;
@@ -54,7 +65,7 @@ body{
     object-fit: cover;
     justify-content: center;
     border: 4px solid #000000;
-    transition: transform 0.6s  ;
+    transition: transform 0.6s ;
     backface-visibility: hidden;
 }
 .card-before {
@@ -87,6 +98,8 @@ body{
     height: 100%;
     background-color: coral;
     top: 0;
+    text-align: center;
+     margin-top: 20px;
 }
 
 button {
@@ -120,4 +133,23 @@ button {
 #result h4 {
     font-size:1.8em;
     margin: 0.6em 0 1em 0;
+}
+@media (max-width: 768px) {
+
+  .wrapper {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .game-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .game-container div {
+    font-size: 1.5rem;
+  }
+
+  .stats-container {
+    font-size: 0.9rem;
+  }
 }
